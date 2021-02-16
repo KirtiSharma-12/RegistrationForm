@@ -107,35 +107,47 @@ namespace userregistration1
             // 
             // txtFname
             // 
+            this.txtFname.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtFname.Location = new System.Drawing.Point(125, 59);
             this.txtFname.Multiline = true;
             this.txtFname.Name = "txtFname";
             this.txtFname.Size = new System.Drawing.Size(194, 38);
             this.txtFname.TabIndex = 6;
+            this.txtFname.Text = "First Name";
+            this.txtFname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtLname
             // 
+            this.txtLname.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtLname.Location = new System.Drawing.Point(382, 59);
             this.txtLname.Multiline = true;
             this.txtLname.Name = "txtLname";
             this.txtLname.Size = new System.Drawing.Size(185, 38);
             this.txtLname.TabIndex = 7;
+            this.txtLname.Text = "Last Name";
+            this.txtLname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtMobile
             // 
+            this.txtMobile.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtMobile.Location = new System.Drawing.Point(125, 158);
             this.txtMobile.Multiline = true;
             this.txtMobile.Name = "txtMobile";
             this.txtMobile.Size = new System.Drawing.Size(218, 43);
             this.txtMobile.TabIndex = 8;
+            this.txtMobile.Text = "Mobile Number";
+            this.txtMobile.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtEmail
             // 
+            this.txtEmail.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtEmail.Location = new System.Drawing.Point(125, 270);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(234, 49);
             this.txtEmail.TabIndex = 9;
+            this.txtEmail.Text = "Email";
+            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cmbContact
             // 
@@ -148,14 +160,18 @@ namespace userregistration1
             this.cmbContact.Name = "cmbContact";
             this.cmbContact.Size = new System.Drawing.Size(234, 24);
             this.cmbContact.TabIndex = 10;
+            this.cmbContact.Text = "Contact Purpose";
             // 
             // txtMessage
             // 
+            this.txtMessage.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtMessage.Location = new System.Drawing.Point(606, 59);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(314, 132);
             this.txtMessage.TabIndex = 11;
+            this.txtMessage.Text = "Hi there, I would like to...";
+            this.txtMessage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnSend
             // 
